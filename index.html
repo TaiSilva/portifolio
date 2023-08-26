@@ -1,21 +1,113 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-bs-theme="dark">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./src/css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
-</head>
-<body>
-    <footer>
-        <nav class="navbar" id="navbar">
-            <a href="#">Home</a>
-            <a href="#">Sobre</a>
-            <a href="#">Contato</a>
-        </nav>
-    </footer>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
 
+</head>
+<body class="body">
+    <header>
+        <nav class="navbar bg-body-tertiary">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <span>
+                            <label for="">Portfólio</label>
+                            <a href="./src/curriculo.pdf" download><button id="curriculo" class="curriculo mt-2">Baixar currículo</button></a>
+                        </span>
+                    </div>
+                    <div class="col home text-shandow mx-5 px-5 d-none d-sm-block">
+                        <span class=""> 
+                            <i class="bi bi-house-door"></i>
+                            <label for="" class="inicio">Ínicio</label>
+                        </span>
+                    </div>
+                    <div class="col skill mx-5 d-none d-sm-block">
+                        <span>
+                            <i class="bi bi-stars"></i>
+                            <label for="" class="habilidades">Habilidades</label>
+                        </span>
+                    </div>
+                    <div class="col project mx-5 d-none d-sm-block">
+                        <span>
+                            <i class="bi bi-list-stars"></i>
+                            <label for="" class="projeto">Projetos</label>
+                        </span>
+                    </div>
+                    <div class="col experience mx-5 d-none d-sm-block">
+                        <span>
+                            <i class="bi bi-mortarboard"></i>
+                            <label for="" class="experiencia">experiência</label>
+                        </span>
+                    </div>
+                    <div class="col mx-3">
+                        <span class="mt-0">
+                            <i class="bi bi-list"></i>
+                        </span>
+                    </div>
+                </div>
+            </div>
+          </nav>
+    </header>
+    <main>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mt-5">
+                    <h3><p class="mx-5 my-3" id="quemsoueu">Quem sou eu</p></h3>
+                    <img src="./src/img/foto-eu.jpg" alt="" class="foto">
+                    
+                    <div class="circulopeq"></div>
+                    
+                </div>
+                <div class="col-md-4 d-flex align-items-center justify-content-center d-none d-sm-block">
+                    
+                    <img src="./src/img/flecha-removebg-preview.png" alt="" class="fotoflecha">
+                </div>
+                <div class="col-md-4 mt-5">
+                    <p class="descricao">Eu sou uma mãe gaúcha apaixonada por tecnologia. Minha jornada teve início há 4 anos, quando dei os primeiros passos nesse fascinante mundo. Já trilhei caminhos diversos, desde atuar como desenvolvedora PL/SQL em uma empresa multinacional até me tornar uma desenvolvedora Full Stack.
+
+                        Hoje, meu portfólio é o reflexo dessa jornada de aprendizado e dedicação. É um espaço onde você pode me conhecer mais profundamente e explorar minhas habilidades em desenvolvimento. Convido você a descobrir como minha paixão pela tecnologia se traduz em soluções tangíveis e criativas.</p>
+                </div>
+                
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col home text-shandow d-block d-sm-none">
+                    <span class=""> 
+                        <i class="bi bi-house-door"></i>
+                        <label for="" class="inicio">Ínicio</label>
+                    </span>
+                </div>
+                <div class="col skill d-block d-sm-none">
+                    <span>
+                        <i class="bi bi-stars"></i>
+                        <label for="" class="habilidades">Habilidades</label>
+                    </span>
+                </div>
+                <div class="col project d-block d-sm-none">
+                    <span>
+                        <i class="bi bi-list-stars"></i>
+                        <label for="" class="projeto">Projetos</label>
+                    </span>
+                </div>
+                <div class="col experience d-block d-sm-none">
+                    <span>
+                        <i class="bi bi-mortarboard"></i>
+                        <label for="" class="experiencia">experiência</label>
+                    </span>
+                </div>
+              
+            </div>
+        </div>
+    </footer>
     <script src="./src/js/index.js"></script>
 </body>
 </html>

@@ -1,34 +1,61 @@
-.navbar {
-    background-color: #333;
-    color: #fff;
-    padding: 10px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    box-shadow: 0px -2px 5px rgba(0, 0, 0, 0.5);
-    transition: transform 0.3s ease-in-out;
-    transform: translateY(100%);
-}
 
-.navbar.open {
-    transform: translateY(0);
-}
+.home, .skill, .project, .experience {
+   text-align: center;
+  }
 
-.navbar.scrolled {
-    background-color: #555;
-}
 
-/* Estilos para os itens da navbar */
-.navbar a {
-    color: #fff;
-    text-decoration: none;
-    margin: 0 10px;
-}
-
-/* Estilos para itens da navbar quando aberta */
-.navbar.open a {
+.bi-house-door, .bi-stars, .bi-list-stars, .bi-mortarboard{
     display: block;
-    margin: 10px;
+    margin: 0 auto;
 }
-
-/* Outros estilos de responsividade e posicionamento */
+.inicio, .habilidades, .projeto, .experiencia{
+    display: block;
+    margin-top: 5px;
+}
+.text-shandow{
+    text-shadow: 0 0 12px white;
+}
+.buttonlista{
+    
+    background-color: rgb(61, 61, 61);
+}
+.bi-list {
+    font-size: 3rem; /* Ajuste o valor conforme desejado */
+  }
+  .curriculo{
+    width: 150px;
+    height: 40px;
+    border: none;
+    border-radius: 10px 20px;
+    background-color: palevioletred;
+  }
+  .circulo{
+    width: 300px;
+    height: 300px;
+    border: 2px solid white;
+    border-radius: 50%;
+    position: relative;
+    top: 30px;
+  }
+  .circulopeq{
+    width: 100px;
+    height: 100px;
+    background-color: palevioletred;
+    border-radius: 50%;
+    position: relative;
+    top: -50px;
+  }
+  .foto{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 4px solid white;
+  }
+  .fotoflecha{
+    width: 130px;
+    height: 130px;
+    transform: rotate(-45deg);
+  }
+  .descricao{
+    font-size: 18px;
+  }
