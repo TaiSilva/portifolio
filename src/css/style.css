@@ -65,3 +65,9 @@
   .navbarpeq{
     background-color: rgb(49, 49, 49);
   }
+  @media (max-width: 576px) {
+    .list {
+      position: relative;
+      left: 100px;
+    }
+  }
